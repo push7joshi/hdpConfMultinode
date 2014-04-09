@@ -34,12 +34,12 @@
       <property>
       <name>mapred.tasktracker.map.tasks.maximum</name>
             <!-- maximum map tasks per node, please set it as same as the amount of cores (cpu)-->
-      <value>2</value>
+      <value>8</value>
       </property>
       <property>
             <name>mapred.tasktracker.reduce.tasks.maximum</name>
                         <!-- maximum map tasks per node, please set it as same as the amount of cores (cpu)-->
-      <value>2</value>
+      <value>8</value>
       </property>
 
 </configuration>
