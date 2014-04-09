@@ -16,13 +16,13 @@
       <name>dfs.name.dir</name>
                   <!-- Path to store HDFS name table directory within MasterNode/NameNode
                                   , musr be unique. e.g. /tmp/<your_id>/name-->
-      <value>/tmp/ubuntu/name</value>
+      <value>/root/tmp/ubuntu/name</value>
 </property>
 <property>
       <name>dfs.data.dir</name>
                   <!-- Path to store blocks within DataNodes/Slaves, must be unique.
                                   e.g. /tmp/<your_id>/data -->
-      <value>/tmp/ubuntu/data</value>
+      <value>/root/tmp/ubuntu/data</value>
 </property>
 
 <!-- Please don't change the following properties, or you will not able
